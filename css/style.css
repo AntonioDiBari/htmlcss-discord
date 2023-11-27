@@ -23,7 +23,7 @@ img {
 }
 /* NAV */
 .nav {
-  background-color: #3161e0;
+  background-color: #255ee9;
   height: 70px;
   color: white;
 }
@@ -71,15 +71,42 @@ img {
 /* SEZIONE HEADER */
 
 .header {
-  background-color: darkblue;
+  background: url(../img/jumbo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 460px;
 }
 
 .header-section {
-  background-color: #ee82ee;
-  height: 250px;
-  width: 75%;
-  border: var(--border);
-  margin: 30px auto;
+  text-align: center;
+  padding: 80px 375px 80px 375px;
+  height: 460px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+.header-intro {
+  color: white;
+  padding: 40px 0 20px 0;
+  font-size: 18px;
+  line-height: 30px;
+}
+.header-section > .download,
+.header-section > .browser {
+  font-size: 18px;
+  border-radius: 25px;
+  padding: 12px 25px;
+  display: inline-block;
+  margin: 0 15px;
+}
+.header-section > .download {
+  background-color: white;
+}
+.header-section > .browser {
+  color: white;
+  background-color: #23272a;
 }
 
 /* SEZIONI UGUALI */
