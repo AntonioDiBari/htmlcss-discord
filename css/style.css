@@ -112,7 +112,7 @@ h1 {
 /* SEZIONI UGUALI */
 
 .section {
-  height: 360px;
+  min-height: 700px;
 }
 .wrapper-section {
   display: flex;
@@ -121,20 +121,27 @@ h1 {
 }
 
 .img-section {
-  border: var(--border);
-  background-color: dodgerblue;
+  /*   border: var(--border); */
   flex: 0 0 60%;
-  height: 80%;
+  height: 500px;
+  padding: 100px 0 100px 0;
 }
 .content-section {
-  border: var(--border);
+  /*   border: var(--border); */
   flex: 0 0 40%;
-  background-color: #ffc0cb;
-  height: 80%;
+  height: 500px;
+}
+.content-section > h2 {
+  font-size: 45px;
+  padding: 135px 0 0 100px;
+}
+.content-section > p {
+  padding: 20px 0 20px 100px;
+  font-size: 18px;
 }
 
 .dark {
-  background-color: lightgray;
+  background-color: #f6f6f6;
 }
 
 /* /* SEZIONE + GRANDE */
