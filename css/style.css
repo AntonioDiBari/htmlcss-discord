@@ -35,7 +35,7 @@ img {
 
 .logo {
   flex-grow: 0;
-  flex-shrink: 1;
+  flex-shrink: 0;
   flex-basis: 110px;
 }
 
@@ -73,22 +73,21 @@ img {
   background: url(../img/jumbo.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: aqua;
+  height: 460px;
 }
 
 .header-section {
   text-align: center;
-  padding: 80px 375px 80px 375px;
-  height: 460px;
 }
 
 h1 {
   color: white;
   font-size: 50px;
+  padding-top: 5rem;
 }
 .header-intro {
   color: white;
-  padding: 40px 0 20px 0;
+  padding: 40px 6rem 20px 6rem;
   font-size: 18px;
   line-height: 30px;
 }
