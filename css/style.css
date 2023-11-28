@@ -135,7 +135,8 @@ h1 {
 
 /* /* SEZIONE + GRANDE */
 
-.big-section {
+.big-section,
+.dark {
   background-color: #f6f6f6;
 }
 
@@ -249,7 +250,6 @@ h1 {
 .wrapper-low-footer {
   display: flex;
   align-items: center;
-  height: 50px;
   justify-content: space-between;
 }
 
